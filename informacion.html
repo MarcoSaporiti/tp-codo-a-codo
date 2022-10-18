@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Palmar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo" ><a href="tp.html"><img src="img/parque.jfif" alt="parque"></a></div>
+        <nav class="header-menubar">
+            <ul>
+                <li><a href="tp.html">Inicio</a></li>
+                <li><a href="seleccion.html">Informacion</a></li>
+                <li><a href="#"> noticias</a></li>
+                <li><a href="#"> contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenido-pal">
+            <section class="viajes">
+                <button class="boton" onclick='pedirinformacion("marco ","saporiti ","mail ")'>pedir informacion </button>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Af0r09rkg-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <script> 
+                    function pedirinformacion(nombre,apellido,mail){
+                        console.log("nombre:"+nombre+"" + "apellido:" + apellido+" mail:"+mail)
+                        alert("hola " + nombre+ "" +apellido + "" +mail)
+                    }
+                    
+                </script>  
+                <p class="info">El Parque Nacional El Palmar se encuentra al noreste de Argentina, en la provincia de Entre Ríos, a orillas del río Uruguay. Es conocido por el palmar yatay que domina el paisaje. Los caminos conducen a la Calera del Palmar, donde se encuentran las ruinas de un establecimiento jesuita, y a los miradores del arroyo Los Loros y La Glorieta, desde donde se puede observar el parque. Los bosques del parque albergan pájaros carpinteros, linces, armadillos y zorros.
+                    <br> <br>
+                    Provincia: Entre Ríos <br>
+                    Ecorregión: Espinal y Pampa <br>
+                    Superficie: 8.213 ha <br>
+                    Creación: 1966 (Ley N° 16.802/65) <br>
+                    Sitio Ramsar (Humedales de Importancia Internacional) <br> <br>
+
+                    Localizado en la confluencia de las regiones naturales Pampeana y del Espinal, y recostado sobre el Río Uruguay, en él se encuentra una de las muestras más importantes de los palmares de yatay; especie muy escasa fuera de los límites del Parque por el avance de las actividades agropecuarias.
+
+                    Aves caminadoras como los inambúes se escapan de cazadores como zorros, gatos monteses y hurones. En las riberas de los cursos de agua surge la selva ribereña, que cobija corzuelas pardas, aguará popés, carpinchos y lobitos de río. Entre las aves de la selva, el tingazú, la urraca común y los anambés son especies comunes.
+
+                    En las zonas más bajas del pastizal se forman humedales temporarios en los que se dan cita garzas, jacanas, teros y tortugas acuáticas. En cercanías del sector de camping los lagartos overos merodean durante los días calurosos y por las noches las vizcachas pastorean mansamente en los alrededores de sus madrigueras.
+
+                    La zona ocupó un sitio destacado en la organización jesuítica regional, hecho comprobado por la existencia de ruinas y vestigios de esas actividades.
+                </p>
+                
+            </section>
+        </div>
+        <aside class="contenido-sec"></aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
